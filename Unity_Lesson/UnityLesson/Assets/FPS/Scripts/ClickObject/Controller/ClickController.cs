@@ -9,9 +9,7 @@ namespace FPS
 
         public void Click()
         {
-            print("Упс, тут что-то проихошло =)");
-            //Ray MyRay = Camera.main.ScreenPointToRay(new Vector3(0,0,1));
-            //Debug.DrawRay(MyRay.origin, MyRay.direction * 10, Color.yellow);
+            print("Упс, тут что-то есть =)");
         }
     }
 }

@@ -38,7 +38,7 @@ namespace FPS
 
         IEnumerator FLEnergy()
         {
-            while (_Light)
+            while (true)
             {
                 yield return new WaitForSeconds(_deley);
                 if (_Light.enabled)

@@ -17,7 +17,7 @@ namespace FPS
             _fleshLightModel = FindObjectOfType<FleshLightModel>();
         }
 
-        private void FixedUpdate()
+        private void Update()
         {
             _text.text = _fleshLightModel._energy.ToString();
         }

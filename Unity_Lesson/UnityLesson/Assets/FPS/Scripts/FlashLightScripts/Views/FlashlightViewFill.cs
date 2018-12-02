@@ -17,7 +17,7 @@ namespace FPS
             _fleshLightModel = FindObjectOfType<FleshLightModel>();
         }
 
-        private void FixedUpdate()
+        private void Update()
         {
             _image.fillAmount = _fleshLightModel._energy / 100;
         }
